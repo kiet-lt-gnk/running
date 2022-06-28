@@ -12,7 +12,8 @@ module.exports = defineConfig({
         name: "running",
         filename: "remoteEntry.js",
         remotes: {
-          downed: "downed@http://localhost:8091/remoteEntry.js",
+          downed:
+            "downed@https://62bae0a07443c2098ca3a8c1--bespoke-cupcake-5c99a5.netlify.app/remoteEntry.js",
         },
         exposes: {},
         shared: {
